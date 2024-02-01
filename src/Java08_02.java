@@ -1,29 +1,13 @@
-
-public class Java08_01 {
-	public static void main(String arms[]) {
-		Human human1 = new Human("太郎",10);
-		Human human2 = new Human("ホップ",99);
-		
-		human1.introduce();
-		human2.introduce();
-	}
-}
-
-class Human{
+class Human2{
 	//メンバ変数
 	private String name;
 	private int age;
 	
 	//コンストラクタ
-	public Human(String n, int a){
+	public Human2(String n, int a){
 		name = n;
 		setAge(a);//年齢の設定はメソッドに任せる
-		
-		/*if(a < 0) {
-			age = 0;
-		}else{
-			age = a;
-		}*/
+
 	}
 	
 	
@@ -42,5 +26,16 @@ class Human{
 	
 	public int getAge() {
 		return age;
+	}
+}
+
+public class Java08_02 {
+	public static void main(String arms[]) {
+		Human2 human1 = new Human2("太郎",-5);
+		human1.introduce();
+		
+		//human2.age = 10;
+		human1.setAge(10);
+		human1.introduce();
 	}
 }
