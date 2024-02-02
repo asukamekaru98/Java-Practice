@@ -2,7 +2,7 @@ class Animals{
 	protected int AnimalAge;
 	
 	public Animals(int getAge) {
-		AnimalAge = getAge;
+		this.AnimalAge = getAge;
 	}
 	
 	public void Walk() {
