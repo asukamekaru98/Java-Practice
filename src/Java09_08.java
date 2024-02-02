@@ -1,4 +1,4 @@
-abstract class Mammal0908{
+/*abstract class Mammal0908{
 	public abstract void eat();
 }
 
@@ -25,4 +25,4 @@ public class Java09_08 {
 			mammal[i].eat();
 		}
 	}
-}
+}*/
