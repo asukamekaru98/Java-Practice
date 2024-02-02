@@ -19,6 +19,13 @@ class Human3 extends Mammal{
 		super(name,age);
 		System.out.println("Humanコンストラクタの呼び出し");
 	}
+	
+	//こいつがオーバーライドくん
+	public void eat() {
+		super.eat();//スーパークラスくんを呼び出すことも可能。
+		
+		System.out.println("お箸使って食べるよ笑");
+	}
 }
 
 public class Java09_01 {
