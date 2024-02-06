@@ -34,7 +34,6 @@ class test2 extends Thread{
 		
 	}//end func
 	
-	
 }//end class
 
 public class Java14_03 {
@@ -57,7 +56,10 @@ public class Java14_03 {
 		    tt2.join();
 		    tt3.join();
 		    tt4.join();
-		}catch(InterruptedException e){}
+		}catch(InterruptedException e){
+			
+		}
+		
 	    System.out.println("終了");
 	}//end func
 	
