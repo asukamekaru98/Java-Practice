@@ -1,4 +1,4 @@
-package Lesson3_2;
+package naze_anatawa;
 
 public class Player{
 	public static final int STONE = 0;
@@ -50,3 +50,6 @@ public class Player{
 	}
 	
 }
+
+
+

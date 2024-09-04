@@ -1,4 +1,4 @@
-package Lesson3_2;
+package naze_anatawa;
 
 public class JankenMain
 {
@@ -9,7 +9,7 @@ public class JankenMain
 		
 		Judge Referee = new Judge();
 		
-		Referee.startJanken(new Player("太郎"),new Player("花子"));	
+		Referee.startJanken(new Yamada("山田"),new Murata("村田"));	
 	
 	}
 }

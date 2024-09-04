@@ -1,4 +1,4 @@
-package Lesson3_2;
+package naze_anatawa;
 
 public class Judge {
 	public static final int STONE = 0;
