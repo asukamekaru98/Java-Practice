@@ -8,8 +8,10 @@ public class JankenMain
 		//Player PlayerHanako = new Player("花子");
 		
 		Judge Referee = new Judge();
+		Player murata = new Murata("村田さん");
+		Player yamada = new Yamada("山田さん");
 		
-		Referee.startJanken(new Yamada("山田"),new Murata("村田"));	
+		Referee.startJanken(murata,yamada);	
 	
 	}
 }
