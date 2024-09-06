@@ -7,9 +7,11 @@ public class Murata extends Player {
 		// TODO 自動生成されたコンストラクター・スタブ
 	}
 
+	/*
 	public int showHand() {
 
 		return PAPER;
 	}
+	*/
 
 }

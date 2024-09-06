@@ -7,30 +7,21 @@ public class Player{
 	
 	private String name_;
 	private int winCount_ = 0;
+	private Tactics tactics_;
 	
 	
 	public Player(String name) {
 		name_ = name;
 	}
 	
+	void setTactics(Tactics tactics) {
+		tactics_ = tactics;
+	}
+	
 	public int showHand() {
 		
-		int hand = 0;
-		double randomNum = Math.random() * 3;
+		int hand = tactics_.readTactics();
 		
-		if(randomNum < 1) {
-			//System.out.println("グー");
-			hand = STONE;
-						
-		}else if(randomNum < 2) {
-			//System.out.println("チョキ");
-			hand = SCISSORS;
-			
-		}else if(randomNum < 3) {
-			//System.out.println("パー");
-			hand = PAPER;
-			
-		}
 		
 		return hand;
 	}

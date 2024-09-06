@@ -6,9 +6,9 @@ public class Yamada extends Player {
 		super(name);
 	}
 
-	public int showHand() {
+	/*public int showHand() {
 
 		return STONE;
-	}
+	}*/
 
 }
