@@ -1,4 +1,4 @@
-package naze_anatawa;
+package naze_anatawa_l2;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
