@@ -58,7 +58,7 @@ public class Player {
 	 */
 	public Hand showHand() {
 		if (myHand_.getNumberOfCards() == 1) {
-			master_.decalareWin(this);
+			master_.declareWin(this);
 		}
 
 		myHand_.shuffle();
