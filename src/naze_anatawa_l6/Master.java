@@ -3,6 +3,7 @@ package naze_anatawa_l6;
 import java.util.ArrayList;
 
 public class Master {
+	// 全プレイヤーの情報、配列。
 	private ArrayList players_ = new ArrayList();
 
 	public void prepareGame(Hand cards) {
